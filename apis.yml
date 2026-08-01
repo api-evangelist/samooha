@@ -1,4 +1,16 @@
 aid: samooha
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/samooha.png
 name: Samooha
 description: 'Samooha is a company surfaced as a portfolio company of altimeter-capital, cowboy-ventures
   and added to the API Evangelist network as a stub for enrichment. Sector: data-infrastructure. This
@@ -13,7 +25,7 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Data Infrastructure
@@ -24,5 +36,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/samooha-domain-security.yml
 - type: Website
   url: https://www.samooha.com
+- type: Pricing
+  url: https://www.samooha.com/pricing
+- type: Blog
+  url: https://www.samooha.com/blog
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
